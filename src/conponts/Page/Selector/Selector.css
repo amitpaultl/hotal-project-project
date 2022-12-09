@@ -1,0 +1,73 @@
+.bg-sectlet{
+    background-image: url('../../Assert/images/Rectangle\ 1.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    padding: 160px 0;
+}
+
+.bg-sectlet::after{
+    position: absolute;
+    content: '';
+    background: #050000;
+    opacity: .5;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+
+.selector-text h1 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 97.6842px;
+    line-height: 117px;
+    color: #FFFFFF;
+  }
+  .selector-text p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0;
+  }
+  .selector-text {
+    padding: 0 50px;
+  }
+
+  
+.selector-clander {
+    width: 470px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 21px 25px;
+    margin: auto;
+  }
+  .selector-lavel label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #818181;
+    display: block;
+  }
+  .selector-lavel select {
+    margin-bottom: 13px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .booking {
+    background: #F9A51A;
+    border-radius: 5px;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    margin-top: 34px;
+  }

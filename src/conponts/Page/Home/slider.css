@@ -1,0 +1,14 @@
+.slider .swiper-slide{
+    border: 1px solid black;
+    position: relative;
+}
+
+.slider img{
+    width: 100%;
+}
+.slider .city{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color: #fff;
+}
